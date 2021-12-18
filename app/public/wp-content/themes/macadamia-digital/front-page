@@ -1,0 +1,78 @@
+<?php get_header(); ?>
+
+      <section class="section section-landingbanner">
+        <div class="container">
+          <div class="landingbanner">
+            <video autoplay muted loop>
+              <source src="<?php echo get_template_directory_uri(); ?>/./video/MT-Landing-Animation-FA3-1080pxl.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="scroll-down"><img src="<?php echo get_template_directory_uri(); ?>/./images/icons/arrow-scrolldown.svg" alt=""></div>
+        </div>
+      </section>
+
+      <section class="section section-intro">
+        <div class="container">
+          <div class="intro">
+            <div class="text-content largetext">
+              <h2 class="heading">The Future is calling</h2>
+              <p>Make Tomorrow is a future-focused brand design practice that helps businesses and organisations create
+                excitement and engagement through smart and inspiring communication. Finding the magic dust that
+                seamlessly matches desire with functionality.</p>
+              <p>We work with businesses, organisations, project leaders, and teams with shared values, those that
+                understand the key to success is in harnessing the power of a solid brand strategy executed with great
+                design that endures and creates real positive impact.</p>
+              <a href="mailto:kelly@maketomorrow.design">Ready to Make (your) Tomorrow?</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-homelinks">
+        <div class="container">
+          <div class="homelinks">
+            <div class="row">
+              <div class="col-md-6">
+                <a href="#" class="card">
+                  <img src="<?php echo get_template_directory_uri(); ?>/./images/homelink-about.jpg" alt="">
+                  <h3>About</h3>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="card">
+                  <img src="<?php echo get_template_directory_uri(); ?>/./images/homelink-projects.jpg" alt="">
+                  <h3>Projects</h3>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="card">
+                  <img src="<?php echo get_template_directory_uri(); ?>/./images/homelink-capabilities.jpg" alt="">
+                  <h3>Capabilities</h3>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="#" class="card">
+                  <img src="<?php echo get_template_directory_uri(); ?>/./images/homelink-stuff-and-things.jpg" alt="">
+                  <h3>Stuff &amp; Things</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-intro section-intro-mini">
+        <div class="container">
+          <div class="intro">
+            <div class="text-content">
+              <p>In the spirit of reconciliation Make Tomorrow acknowledges the Traditional Custodians of country
+                throughout Australia and their connections to land, sea and community. We pay our respect to their
+                elders past and present and extend that respect to all Aboriginal and Torres Strait Islander peoples
+                today.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+ <?php get_footer(); ?>

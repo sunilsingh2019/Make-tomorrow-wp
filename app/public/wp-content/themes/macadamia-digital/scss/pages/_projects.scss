@@ -1,0 +1,62 @@
+.section-projectpreview {
+    padding: 0;
+
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+}
+
+.projectpreview {
+    .row {
+        margin: 0 -3px;
+    }
+
+    [class^="col-"] {
+        padding: 3px;
+    }
+
+    .card {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        height: 957px;
+
+        @media (max-width: 991px) {
+            height: 600px;
+        }
+
+        @media (max-width: 567px) {
+            height: 340px;
+        }
+
+        img,
+        video {
+            @include imgfit;
+        }
+
+        .overlay {
+            @include absoldefault;
+            background-color: $color-gray;
+            padding: 70px;
+            opacity: 0;
+            transition: all .3s ease-out;
+        }
+
+        &:hover {
+            color: inherit;
+
+            .overlay {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.page-projectdetail .section-intro {
+    // padding-bottom: 430px;
+}
+
+.section-projectpreview-detail .projectpreview .card {
+    height: 1080px;
+}

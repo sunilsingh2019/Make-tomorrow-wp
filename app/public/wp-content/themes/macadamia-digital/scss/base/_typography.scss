@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Mabry Pro';
+    src: url('../fonts/MabryPro-Bold.woff2') format('woff2'),
+        url('../fonts/MabryPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Linear Sans';
+    src: url('../fonts/LinearSans-Regular.woff2') format('woff2'),
+        url('../fonts/LinearSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

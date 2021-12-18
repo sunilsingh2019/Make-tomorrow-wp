@@ -1,0 +1,18 @@
+/* base for all use */
+@import "base/variable";
+@import "base/typography";
+@import "base/mixins";
+@import "base/base";
+@import "base/utilities";
+
+/* universal all page */
+@import "uni/header";
+@import "uni/footer";
+
+/* section */
+@import "pages/home";
+@import "pages/about";
+@import "pages/projects";
+@import "pages/capabilities";
+@import "pages/stuff-and-things";
+@import "pages/contact";
